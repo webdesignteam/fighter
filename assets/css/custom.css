@@ -1,0 +1,10 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.h1custom{
+	font-size: 1.125rem !important;
+	font-family: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    color: #ffffff !important; 
+}

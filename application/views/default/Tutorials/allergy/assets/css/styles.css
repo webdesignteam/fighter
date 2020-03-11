@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* ==========================================================================
+   CSS Reset
+   ========================================================================== */
+/*
+* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+* Richard Clark (http://richclarkdesign.com)
+* http://cssreset.com
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+body {
+	line-height: 1
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+nav ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none
+}
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold
+}
+del {
+	text-decoration: line-through
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+input, select {
+	vertical-align: middle
+}
+*, *:after, *:before {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+/* ==========================================================================
+   Common CSS
+   ========================================================================== */
+body {
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	color: #4b4b4b;
+	background: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	color: #b41124;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.container {
+	/* width: 960px; */
+	margin: 0 auto;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+li {
+	list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/* ==========================================================================
+   Setting up the fonts
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+}
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+.main-block {
+
+}
+.content-block {
+    padding-top: 15px;
+}
+.content-title {
+    padding: 3px;
+    border: 3px solid #000;
+    width: 205px;
+    margin: 0 auto;
+}
+.content-title h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 28px;
+    line-height: normal;
+    padding: 3px;
+    border: 1px solid #000;
+    width: 190px;
+    margin: 0 auto;
+}
+.content-block h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.content-block p {
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.italic-style {
+    font-style: italic;
+    font-weight: 700;
+}
+.fist-menu {
+
+}
+.fist-menu li {
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 10px;
+    list-style: disc;
+    margin-left: 20px;
+}
+.images-link {
+    list-style: none !important;
+}
+.images-link img {
+    margin: 0 auto;
+}
+.content-block h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.underline {
+    text-decoration: underline;
+}
+.tree-structure2 {
+    margin: 0 auto;
+}
+.second-menu li {
+    list-style: square;
+}
